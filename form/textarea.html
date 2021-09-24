@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>area</title>
+	<link rel="stylesheet" type="text/css" href="textarea.css">
+
+</head>
+<body>
+	<!-- contact page -->
+			<section class="contact">
+				
+				<div class="contactbg">
+					<img class="contacto" src="images/bg-contact-circles.svg">
+				</div>
+
+				<div class="contactmain">
+					<div class="kontakt">
+						<h1 class="h1kontaktmain">kontakt</h1>
+						<img class="ornamentimgkontakt" src="images/ornament.svg">
+
+						<div class="contactinfo">
+							<p class="contactp">Adresa <span class="spantextcontact">Levocska 5, Presov, 080 01</span></p>
+							<p class="contactp">Telefon <span class="spantextcontact">+421 905 191 972</span></p>
+							<p class="contactp">Mesto <span class="spantextcontact">Presov / Slovakia</span></p>
+							<hr class="hrcontact">
+						</div>
+
+						<div class="contactform">
+							<div class="contactitems">
+								<!-- new form -->
+								<div class="container1">
+            					  	<form class="form1">
+               						
+               							<div class="form-control1 ">
+                    						<input id="txtUserName" type="text" name="username" placeholder="MENO"/>
+                    						<small>Error Message</small>
+               						 	</div>
+                					
+                						<div class="form-control1">
+                    						<input id="txtEmail" type="email" name="email" placeholder="EMAIL"/>
+                   						 	<small>Error Message</small>
+               							</div>
+
+               					 		<div class="form-control1">
+                   							<input id="txtTel" type="tel" name="tel" placeholder="TELEFON" />
+                   					 		<small>Error Message</small>
+               							</div>
+
+               							<div>
+  												<textarea id="txtArea" type="area" minlength="10" name="area" class="contactareaitem"  rows="7" cols="40">ODKAZ...</textarea>
+  												
+  												
+										</div>
+
+										<div class="form-control1">
+                   					 		<button>Odoslat</button>
+               							</div>
+           					 		</form>
+        						</div>
+								<!-- form end -->
+								
+								<!-- script for forms -->
+<script type="text/javascript">
+let userName=document.getElementById("txtUserName");
+let email=document.getElementById("txtEmail");
+let tel=document.getElementById("txtTel");
+let area=document.getElementById("txtArea");
+/*let form=document.querySelector("form");*/
+
+
+
+/*practice*/
+
+
+/*practice*/
+
+document.querySelector("button")
+.addEventListener("click",(event)=>{
+    event.preventDefault();
+    validateInput();
+});
+</script>
+								<!-- script for forms end -->
+								<!-- <div>
+									<form>
+  										<textarea class="contactareaitem" name="message" rows="7" cols="40">ODKAZ...</textarea>
+									</form> 
+								</div> --> 
+							</div>
+
+							<!--<div>
+								<input class="btn" type="submit" value="ODOSLAT">
+							</div> -->
+						</div>
+
+				<div class="contactlogo">
+					<img class="contactlogoimg" src="images/logo.svg">
+					<img class="ornamentimgkontaktbottom" src="images/ornament.svg">
+					<div class="copyright">
+						<p class="pc">Copyright 2016</p>
+						<p class="pc">Vsetky prava vyhladane.</p>
+					</div>
+				</div>
+
+				<!-- <div class="white">
+				dd
+				</div> -->
+			</section>
+			<!-- contact page end  --> 
+	
+</body>
+
+</html>
